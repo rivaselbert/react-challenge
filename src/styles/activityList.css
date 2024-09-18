@@ -1,0 +1,49 @@
+.activity-list-container {
+  margin-top: 20px;
+}
+
+.activity-list {
+  display: flex;
+  background: #f2f5eb;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.activity-list-header {
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.activity-table {
+  flex: 1;
+}
+
+.activity-table tbody tr {
+  height: 34px;
+}
+
+.activity-table th {
+  text-align: left;
+}
+
+.list-header h2 {
+  color: #221a15;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list {
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s ease-in-out;
+}
+
+.activity-name {
+  color: #73796e;
+}

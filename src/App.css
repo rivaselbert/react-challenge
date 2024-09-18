@@ -1,0 +1,29 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-content {
+  flex: 1;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .dashboard-content {
+    flex-direction: column;
+  }
+
+  .dashboard-content .content-header {
+    order: 1;
+  }
+
+  .dashboard-content .profile-card {
+    order: 2;
+  }
+
+  .dashboard-content .content {
+    order: 3;
+  }
+}

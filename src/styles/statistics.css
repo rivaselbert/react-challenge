@@ -1,0 +1,25 @@
+.statistics-container {
+  display: flex;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.statistics {
+  flex: 1;
+  background: #f2f5eb;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .statistics-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    gap: 16px;
+  }
+}

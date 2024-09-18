@@ -1,0 +1,18 @@
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 58px;
+}
+
+.header-title {
+  color: #221a15;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
