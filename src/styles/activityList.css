@@ -16,10 +16,16 @@
 
 .activity-table {
   flex: 1;
+  border-collapse: collapse;
 }
 
 .activity-table tbody tr {
   height: 34px;
+}
+
+.activity-table tbody tr:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
 }
 
 .activity-table th {
